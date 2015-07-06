@@ -13,6 +13,7 @@
 		5530C1981B42332E0029F323 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5530C1971B42332E0029F323 /* Images.xcassets */; };
 		5530C19B1B42332E0029F323 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5530C1991B42332E0029F323 /* LaunchScreen.xib */; };
 		5530C1A71B42332E0029F323 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530C1A61B42332E0029F323 /* TipCalculatorTests.swift */; };
+		5530C1B11B4235090029F323 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530C1B01B4235090029F323 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5530C1A01B42332E0029F323 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5530C1A51B42332E0029F323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5530C1A61B42332E0029F323 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		5530C1B01B4235090029F323 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		5530C1821B42332E0029F323 = {
 			isa = PBXGroup;
 			children = (
+				5530C1B01B4235090029F323 /* TipCalculatorModel.swift */,
 				5530C18D1B42332E0029F323 /* TipCalculator */,
 				5530C1A31B42332E0029F323 /* TipCalculatorTests */,
 				5530C18C1B42332E0029F323 /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5530C1B11B4235090029F323 /* TipCalculatorModel.swift in Sources */,
 				5530C1931B42332E0029F323 /* ViewController.swift in Sources */,
 				5530C1911B42332E0029F323 /* AppDelegate.swift in Sources */,
 			);
