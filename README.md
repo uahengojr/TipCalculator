@@ -1,4 +1,4 @@
 # TipCalculator
-A simple iOS tipCalculator application written in Swift.
+A simple iOS tip calculator application written in Swift.
 
 
